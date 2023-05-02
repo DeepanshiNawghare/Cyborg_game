@@ -1,0 +1,17 @@
+.streamall_cnt{
+    margin: 60px 60px 0;
+    border-radius: 23px;
+    background-color: #1f2122;
+    padding: 30px;
+}
+/* MEADIA QUERIES  for small device*/
+@media screen and (max-width:767px) {
+    .streamall_cnt {
+        margin: 60px 20px 0;
+    }
+  }
+  
+  /* MEADIA QUERIES  for medium device*/
+  @media screen and (min-width:768px) and (max-width:992px) {
+   
+  }

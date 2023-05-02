@@ -1,0 +1,133 @@
+.featured_cnt {
+    display: flex;
+    gap: 30px;
+    padding: 0px 60px;
+}
+
+.featured_cnt_1 {
+    border-radius: 23px;
+    background-color: #1f2122;
+    padding: 30px;
+    width: 70vw;
+}
+
+.featured_cnt_2 {
+    border-radius: 23px;
+    background-color: #1f2122;
+    padding: 30px;
+    width: 33vw;
+
+}
+.featured_cnt2_g {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-left: -30px;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #27292a;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+
+}
+
+.featured_cnt2_g img {
+    border-radius: 23%;
+}
+
+.featured_cnt2_txt {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.featured_cnt2_txt h4 {
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.featured_cnt2_txt h5 {
+    font-weight: 400;
+    font-size: 15px;
+    color: #666;
+}
+
+.f_cnt2_icn {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.f_cnt2_icn span {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.f_cnt2_icn_d {
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    color: #ec6090;
+    background-color: #27292a;
+    border-radius: 50%;
+}
+.view_btn {
+    text-align: center;
+    
+}
+.view_btn a{
+    color: #ec6090;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.view_btn a:hover{
+    color: #fff;
+}
+/* MEADIA QUERIES  for small device*/
+@media screen and (max-width:767px) {
+    .featured_cnt {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .featured_cnt_1 {
+        width: 100%;
+    }
+    .featured_cnt_2 {
+        width: 100%;
+    }
+    .featured_cnt2_g  {
+        padding-bottom: 20px;
+    }
+    .featured_cnt2_g img {
+        margin-top: -60px;
+    }
+    .featured_cnt2_txt {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .f_cnt2_icn_d {
+        margin-left: -100px;
+    }
+}
+
+/* MEADIA QUERIES  for medium device*/
+@media screen and (min-width:768px) and (max-width:992px) {
+    .featured_cnt {
+        flex-direction: column;
+    }
+    .featured_cnt_1 {
+        width: 100%;
+    }
+    .featured_cnt_2 {
+        width: 100%;
+    }
+    .featured_cnt2_g {
+        gap: 40px;
+    }
+}

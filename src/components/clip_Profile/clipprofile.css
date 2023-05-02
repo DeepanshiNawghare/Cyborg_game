@@ -1,0 +1,251 @@
+.clipprofile_cnt {
+
+    background-color: #1f2122;
+    border-radius: 23px;
+    padding: 30px;
+    margin: 0 60px 60px 60px;
+}
+
+.profile_sec {
+    display: flex;
+    color: white;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.pro_img img {
+    border-radius: 23px;
+}
+
+.pro_img {
+    width: 100%;
+}
+
+.pro_des {
+    width: 100%;
+
+}
+
+.pro_des span {
+    font-size: 14px;
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+.pro_des h4 {
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.pro_des p {
+    font-size: 15px;
+    color: #666;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.pro_des button {
+    font-size: 14px;
+    color: #ec6090;
+    background-color: transparent;
+    border: 1px solid #ec6090;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.pro_des button:hover {
+    color: #ec6090;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.pro_info {
+    width: 100%;
+}
+
+.pro_info ul {
+    border-radius: 23px;
+    padding: 30px;
+    background-color: #27292a;
+}
+
+.pro_info li {
+
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro_info li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.pro_info span {
+    color: #ec6090;
+}
+
+.profile_sec {
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #27292a;
+
+}
+
+.clip_sec {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.clip_card {
+    border-radius: 23px;
+    padding: 30px 15px;
+    background-color: #27292a;
+    margin-bottom: 30px;
+    width: 22%;
+    color: white;
+}
+
+.clip_card a {
+    position: absolute;
+    transform: translate(-135px, 70px);
+    width: 46px;
+    height: 46px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    color: #ec6090;
+}
+
+.clip_card a:hover {
+
+    background-color: #fff;
+    color: #ec6090;
+}
+
+.clip_card_txt {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.clip_card_txt span {
+    gap: 5px;
+    color: #ec6090;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+.clip_card_txt span div {
+    color: white;
+}
+
+.clip_card img {
+    border-radius: 23px;
+    width: 100%;
+}
+
+.clip_btn {
+    font-size: 14px;
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    border: none;
+    position: absolute;
+    margin-left: 31%;
+}
+
+.clip_btn:hover {
+    background-color: #fff;
+    color: #e75e8d;
+}
+
+/* MEADIA QUERIES  for small device*/
+@media screen and (max-width:767px) {
+    .clipprofile_cnt {
+        margin: 0 20px 60px;
+    }
+
+    .profile_sec {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .pro_img img {
+        width: 100%;
+    }
+
+    .clip_card {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .clip_card a {
+        transform: translate(-105px, 40px);
+    }
+
+    .clip_sec {
+        gap: 20px;
+    }
+
+    .clip_btn {
+        font-size: 15px;
+        margin: 0 20px;
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+}
+
+/* MEADIA QUERIES  for medium device*/
+@media screen and (min-width:768px) and (max-width:992px) {
+    .profile_sec {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .pro_img img {
+        width: 100%;
+    }
+
+    .clip_card {
+        width: 48%;
+    }
+
+    .clip_sec {
+        gap: 20px;
+    }
+
+    .clip_btn {
+        margin-left: 24%;
+    }
+}

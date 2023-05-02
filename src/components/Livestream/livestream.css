@@ -1,0 +1,146 @@
+.livestream_cnt {
+    border-radius: 23px;
+    background-color: #1f2122;
+    padding: 30px;
+    margin: 60px 60px 0;
+
+}
+
+.livestream_sec {
+    display: flex;
+    gap: 29px;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.livestream_card {
+    width: 23%;
+    position: relative;
+}
+
+.livestream_card img {
+    border-radius: 23px;
+    width: 100%;
+}
+
+.livestream_card:hover .livestream_bg_txt {
+    display: block;
+    position: absolute;
+    top: 20px;
+
+}
+
+.livestream_bg_txt {
+    display: none;
+}
+
+.livestream_bg_txt button {
+    color: #fff;
+    background-color: #e75e8d;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 23px;
+    font-size: 14px;
+}
+.livestream_bg_btn1  {
+    margin-left: 200px;
+}
+
+.livestream_bg_btn2 {
+    margin-top: 155px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.livestream_bg_btn2 button{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.livestream_bottom {
+    display: flex;
+    gap: 15px;
+    color: #fff;
+    margin: 15px 0;
+
+}
+
+.livestream_bottom img {
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+
+
+}
+
+.livestream_check {
+
+    color: #fff;
+    background-color: #ec6090;
+    border-radius: 50%;
+    padding: 2%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 4px;
+}
+
+.livestream_bottom span {
+    color: #ec6090;
+}
+
+.livestream_bottom h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.ls_btn {
+    font-size: 16px;
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 30%;
+    position: absolute;
+}
+
+.ls_btn :hover {
+    background-color: #fff;
+    color: #e75e8d;
+
+}
+/* MEADIA QUERIES  for small device*/
+@media screen and (max-width:767px) {
+    .livestream_sec {
+        flex-direction: column;
+    }
+    .livestream_cnt {
+        margin: 60px 20px 0;
+    }
+    .livestream_card {
+        width: 100%;
+    }
+    .ls_btn{
+        margin-left: 0%;
+    }
+}
+
+/* MEADIA QUERIES  for medium device*/
+@media screen and (min-width:768px) and (max-width:992px) {
+    .livestream_sec {
+        gap: 30px;
+    }
+    .ls_btn{
+        margin-left: 22%;
+    }
+    .livestream_card {
+        width: 47%;
+    }
+}

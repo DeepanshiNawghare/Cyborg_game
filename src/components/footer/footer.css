@@ -1,0 +1,44 @@
+.footer_sec{
+    gap: 10px;
+    color: white;
+    padding: 30px;
+    line-height: 0.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_txt{
+    display: flex;
+    gap: 5px;
+}
+.footer_sec a{
+    color: white;
+    text-decoration: none;
+}
+.footer_sec a:hover{
+    color: #e75e8d;
+    
+}
+.footer_sec span:hover{
+    color: #e75e8d;
+}
+/* MEADIA QUERIES  for small device*/
+@media screen and (max-width:767px) {
+    .footer_sec{
+        line-height: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .footer_txt{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .footer_txt p{
+        margin-bottom: 20px;
+    }
+}
+
+/* MEADIA QUERIES  for medium device*/
+@media screen and (min-width:768px) and (max-width:992px) {
+   
+}

@@ -1,0 +1,117 @@
+.othergames_sec {
+    padding: 30px 30px 10px;
+    background-color: #1f2122;
+    border-radius: 23px;
+    margin: 60px 60px 0px;
+}
+
+.othergame_cnt {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.othergame_cnt_sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 50%;
+}
+
+.other_cnt_card {
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #27292a;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.other_cnt_card img {
+    border-radius: 23px;
+    margin-left: -30px;
+}
+
+.other_card_txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.other_card_head {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.other_card_subhead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.other_card_txt_ttl {
+    font-weight: 800;
+}
+
+.other_card_txt_icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    margin-bottom: 3px;
+
+}
+
+.other_card_sub {
+    color: #666;
+    font-weight: 400;
+}
+
+/* MEADIA QUERIES  for small device*/
+@media screen and (max-width:767px) {
+    .othergames_sec {
+        margin: 60px 20px 0px;
+    }
+    .othergame_cnt {
+        flex-direction: column;
+    }
+    .other_cnt_card {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        margin-left: -30px;
+        
+    }
+    .othergame_cnt_sec {
+        width: 100%;
+    }
+    .other_card_txt {
+        /* justify-content: space-between; */
+        width: auto;
+    }
+    .other_cnt_card img {
+        margin-left: 0px;
+    }
+    .other_card_subhead {
+        gap: 10px;
+    }
+}
+
+/* MEADIA QUERIES  for medium device*/
+@media screen and (min-width:768px) and (max-width:992px) {
+    .othergame_cnt {
+        flex-direction: column;
+    }
+
+    .othergame_cnt_sec {
+        width: 100%;
+    }
+    .other_cnt_card {
+        gap: 30px;
+        
+    }
+}

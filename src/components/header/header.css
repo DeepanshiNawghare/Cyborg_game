@@ -1,0 +1,114 @@
+.header_sec {
+    width: 100%;
+    position: relative;
+}
+
+.header_bg {
+    padding: 0 60px;
+    width: 100%;
+}
+
+.header_bg img {
+    width: 100%;
+    border-radius: 23px;
+}
+
+.header_txt {
+    color: white;
+    width: 50%;
+    position: absolute;
+    top: 80px;
+    left: 120px;
+}
+
+.header_txt h6 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.header_txt h4 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.header_txt h4 span {
+    color: #ec6090;
+}
+
+.header_txt button {
+    font-size: 16px;
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+}
+
+.header_txt button:hover {
+    color: #e75e8d;
+    background-color: #fff;
+}
+
+/* MEADIA QUERIES  for small device*/
+@media screen and (max-width:767px) {
+
+    .header_bg {
+        padding: 0 20px;
+    }
+
+    .header_bg img {
+        height: 80vh;
+    }
+
+    .header_txt {
+        top: 45px;
+        left: 30px;
+        width: 80%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .header_txt h6 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .header_txt h4 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .header_txt button {
+        font-size: 15px;
+        padding: 10px 30px;
+    }
+}
+
+/* MEADIA QUERIES  for medium device*/
+@media screen and (min-width:768px) and (max-width:992px) {
+    .header_bg img {
+        height: 300px;
+    }
+
+    .header_txt {
+        top: 70px;
+        left: 100px;
+    }
+
+    .header_txt h6 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .header_txt h4 {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+
+    .header_txt button {
+        font-size: 15px;
+        padding: 10px 30px;
+    }
+}

@@ -1,0 +1,24 @@
+.home_sec {
+    width: 100%;
+}
+
+.main_cnt {
+    background-color: #27292a;
+    padding: 60px;
+    border-radius: 23px;
+}
+
+/* MEADIA QUERIES  for small device*/
+@media screen and (max-width:767px) {
+    .home_sec {
+        padding: 20px;
+    }
+
+    .main_cnt .library_sec button {
+        margin: 0 -2px;
+    }
+
+}
+
+/* MEADIA QUERIES  for medium device*/
+@media screen and (min-width:768px) and (max-width:992px) {}

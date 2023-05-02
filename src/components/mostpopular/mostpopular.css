@@ -1,0 +1,112 @@
+.mostpopular_sec {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #1f2122;
+    border-radius: 23px;
+    margin: 60px;
+}
+
+.heading_txt h2 {
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.heading_txt span {
+    color: #ec6090;
+}
+
+.mp_r1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.mp_g_cnt {
+    color: white;
+    background-color: #27292a;
+    padding: 30px 15px;
+    border-radius: 23px;
+    margin-bottom: 30px;
+}
+
+.mp_g_cnt img {
+    width: 225px;
+    margin-bottom: 20px;
+    border-radius: 23px;
+}
+
+.mp_g_head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mp_g_subhead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mp_txt_ttl {
+    font-weight: 800;
+}
+
+.mp_txt_icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.mp_txt_sub {
+    color: #666;
+    font-weight: 400;
+}
+
+.mp_g_btn {
+    font-size: 16px;
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 32%;
+    position: absolute;
+
+}
+
+.mp_g_btn:hover {
+    background-color: #fff;
+    color: #e75e8d;
+}
+
+/* MEADIA QUERIES  for small device*/
+@media screen and (max-width:767px) {
+    .mostpopular_sec {
+        margin: 60px 20px;
+    }
+
+    .mp_g_cnt img {
+        width: 125px;
+    }
+
+    .mp_g_btn {
+        font-size: 15px;
+        margin: 5px;
+        padding: 10px 20px;
+    }
+}
+
+/* MEADIA QUERIES  for medium device*/
+@media screen and (min-width:768px) and (max-width:992px) {
+    .mp_g_cnt img {
+        width: 210px;
+    }
+
+    .mp_g_btn {
+        margin-left: 24%;
+    }
+
+
+}
