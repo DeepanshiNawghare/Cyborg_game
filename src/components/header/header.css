@@ -60,10 +60,11 @@
 
     .header_bg img {
         height: 80vh;
+        object-fit: cover;
     }
 
     .header_txt {
-        top: 45px;
+        top: 100px;
         left: 30px;
         width: 80%;
         padding: 30px;

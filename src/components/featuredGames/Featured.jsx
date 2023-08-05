@@ -65,8 +65,6 @@ export default function Featured() {
                 <div className='view_btn' >
                     <a href='*'>View All Games</a>
                 </div>
-
-
             </div>
         </div>
     )
